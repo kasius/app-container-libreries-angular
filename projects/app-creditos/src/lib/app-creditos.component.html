@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1>Bienvenido a Aplicación Créditos!</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi alias qui facilis assumenda vero aut quos dolore culpa excepturi repellat iure magnam similique fugit quaerat rerum necessitatibus adipisci, deserunt ducimus!</p>
+</div>
+<div class="row">
+  <div class="col-12">
+    <button [routerLink]="['/credits']" class="btn btn-success" style="margin-right: 10px;">
+      Créditos Activos
+    </button>
+    <button [routerLink]="['/history']" class="btn btn-success">
+      Histórico
+    </button>
+    <hr />
+    <router-outlet></router-outlet>
+  </div>
+</div>

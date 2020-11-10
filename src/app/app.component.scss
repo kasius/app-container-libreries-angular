@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #EAF2D7;
+}
+
+.sidebar {
+  padding: 15px;
+  width: 300px;
+  max-width: 300px;
+  float: left;
+  background-color: #B3DEE2;
+  height: calc(100vh - 80px);
+  ul {
+    li:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.container-view {
+  padding: 15px;
+  float: left;
+  width: calc(100% - 300px);
+  background-color: #E27396;
+  height: calc(100vh - 80px);
+}
+
+.footer {
+  width: 100%;
+  background-color: #EAF2D7;
+  height: 40px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
